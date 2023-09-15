@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
@@ -45,7 +45,7 @@ namespace API.Services
             {
                 /* var rolPredeterminado = _unitOfWork.Rols
                                                      .Find(u => u.Name_Rol == Autorizacion.Rol_PorDefecto.ToString())
-                                                     .First();*/
+                                                     .First();
                 try
                 {
                     //usuario.Rols.Add(rolPredeterminado);
@@ -196,4 +196,4 @@ namespace API.Services
         }
 
     }
-}
+}*/

@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using Dominio.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -19,8 +15,10 @@ namespace Persistencia
 
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
         }
-         public DbSet<Rol> Roles { get; set; }
-        public DbSet<Usuario> Usuarios { get; set; }
-        public DbSet<UsuarioRoles> UsuariosRoles { get; set; }
+        public DbSet<Categorias> Categorias { get; set; }
+        public DbSet<Chefs> Chefs { get; set; }
+        public DbSet<Hamburguesa_ingredientes> Hamburguesa_Ingredientes { get; set; }
+        public DbSet<Hamburguesas> Hamburguesas { get; set; }
+        public DbSet<Ingredientes> Ingredientes { get; set;}
     }
 }
